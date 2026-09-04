@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Screws Up",
+    "slug": "screws-up-customer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#f59e0b"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "in.screwsup.customer"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#f59e0b"
+      },
+      "package": "in.screwsup.customer"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "extends": "@screws-up/config-typescript/react-library.json",
+  "compilerOptions": {
+    "moduleResolution": "Bundler",
+    "jsx": "react-native"
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}

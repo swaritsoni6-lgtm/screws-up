@@ -1,0 +1,11 @@
+{
+  "name": "@screws-up/config-tailwind",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "tailwind.config.ts",
+  "files": ["tailwind.config.ts"],
+  "dependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}

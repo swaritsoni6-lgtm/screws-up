@@ -1,0 +1,23 @@
+{
+  "name": "@screws-up/mobile-artisan",
+  "version": "0.1.0",
+  "private": true,
+  "main": "App.tsx",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@screws-up/api-client": "workspace:*",
+    "@screws-up/shared-types": "workspace:*",
+    "expo": "~51.0.0",
+    "react": "18.2.0",
+    "react-native": "0.74.5"
+  },
+  "devDependencies": {
+    "@screws-up/config-typescript": "workspace:*",
+    "@types/react": "~18.2.79",
+    "typescript": "^5.5.4"
+  }
+}
