@@ -4,6 +4,8 @@ import sensible from "@fastify/sensible";
 import { healthRoutes } from "./routes/health.js";
 import { bookingRoutes } from "./routes/bookings.js";
 import { artisanRoutes } from "./routes/artisans.js";
+import { ledgerRoutes } from "./routes/ledger.js";
+import { panchayatRoutes } from "./routes/panchayat.js";
 
 const fastify = Fastify({
   logger: {
@@ -20,6 +22,8 @@ await fastify.register(sensible);
 await fastify.register(healthRoutes);
 await fastify.register(bookingRoutes);
 await fastify.register(artisanRoutes);
+await fastify.register(ledgerRoutes);
+await fastify.register(panchayatRoutes);
 
 const port = Number(process.env.PORT) || 4000;
 const host = process.env.HOST || "0.0.0.0";
